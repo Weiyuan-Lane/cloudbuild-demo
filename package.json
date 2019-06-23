@@ -21,9 +21,9 @@
     "ejs": "~2.5.5"
   },
   "devDependencies": {
-    "jasmine-node": "~1.16.2",
+    "@google-cloud/nodejs-repo-tools": "^3.3.0",
     "growl": ">=1.10.0",
-    "@google-cloud/nodejs-repo-tools": "~3.0.0"
+    "jasmine-node": "~1.16.2"
   },
   "cloud-repo-tools": {
     "test": {
