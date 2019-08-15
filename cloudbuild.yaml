@@ -34,4 +34,4 @@ steps:
   - id: DeployAppEngine
     waitFor: ['InstallProductionNpm']
     name: 'gcr.io/cloud-builders/gcloud'
-    args: ['app', 'deploy', '-q', '--project', 'cloudbuild-cicd-test', '--no-promote']
+    args: ['app', 'deploy', '-q', '--project', '$PROJECT_ID', '--no-promote']
